@@ -1,0 +1,86 @@
+* {
+    color: #aaa;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+}
+body{
+    background-image: url('./maxresdefault.jpg');
+    background-repeat: no-repeat;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+}
+
+.navbar {
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+
+nav>a {
+    color: #aaa;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    background-color: #aaa;
+    color: black;
+
+}
+
+.logo {
+    text-align: center;
+}
+
+.links {
+    text-align: center;
+    align-self: center;
+}
+
+
+
+.navi {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    padding: 15px;
+    color: #aaa;
+    font-weight: bold;
+
+}
+
+a:hover {
+    background-color: #aaa;
+    color: black;
+}
+
+.contactus {
+    width: 50%;
+    
+}
+
+br{
+    padding: 1px    
+}
+.profile{
+    display: flex;
+}
+.bio{
+    width: 60%;
+}
+.skills{
+    width: 40;
+    font-weight: bold;
+
+}
+h4, .bio{
+    font-weight: bold;
+    padding: 10px;
+}
