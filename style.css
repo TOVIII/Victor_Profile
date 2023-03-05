@@ -14,7 +14,7 @@ body{
     width: 40%;
     background-color: #8d99ae;
     text-align: center;
-    padding: 15px;
+    padding: 30px;
     align-items: center;
 }
 
@@ -30,8 +30,7 @@ body{
 img {
     border: 1px solid transparent;
     border-radius: 50%;
-    width: 200px;
-    height: 150px;
+    width: 80%;
 }
 nav>a {
     color: #fafafa;
