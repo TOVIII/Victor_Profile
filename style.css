@@ -1,28 +1,41 @@
-* {
-    color: #aaa;
-    font-family: 'Times New Roman', Times, serif;
-    width: 100%;
-}
 body{
-    background-image: url('./maxresdefault.jpg');
-    background-repeat: no-repeat;
+    background-color: #9ea5b3;
+    font-family: serif;
 }
-.container {
-    margin: 0 auto;
-    width: 100%;
-    display: block;
-}
-
-.navbar {
+.container{
     display: flex;
+    margin: 0 auto;
+    width: 80%;
+    padding: 100px;
+
+
+}
+.intro{
+    width: 40%;
+    background-color: #8d99ae;
     text-align: center;
-    width: 100%;
+    padding: 15px;
+    align-items: center;
 }
 
 
-nav>a {
-    color: #aaa;
+.info{
+    background-color: #2b2d42;
+    width: 60%;
     padding: 15px;
+    color: #fafafa;
+
+
+}
+img {
+    border: 1px solid transparent;
+    border-radius: 50%;
+    width: 200px;
+    height: 150px;
+}
+nav>a {
+    color: #fafafa;
+    padding: 10px;
     text-decoration: none;
     font-weight: bolder;
 }
@@ -32,55 +45,41 @@ a:hover {
     color: black;
 
 }
-
-.logo {
-    text-align: center;
+h1{
+    font-weight: bolder;
 }
-
-.links {
+@media only screen and (max-width: 600px){
+   .container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+display: flex;
+flex-direction: column;
+   }
+   .intro{
+    width: 100%;
+    background-color: #8d99ae;
     text-align: center;
-    align-self: center;
-}
-
-
-
-.navi {
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
     padding: 15px;
-    color: #aaa;
-    font-weight: bold;
-
 }
 
-a:hover {
-    background-color: #aaa;
-    color: black;
-}
 
-.contactus {
-    width: 50%;
-    
-}
+.info{
+    background-color: #2b2d42;
+    width: 100%;
+    padding: 15px;
+    color: #fafafa;
 
-br{
-    padding: 1px    
-}
-.profile{
-    display: flex;
-}
-.bio{
-    width: 60%;
-}
-.skills{
-    width: 40;
-    font-weight: bold;
 
 }
-h4, .bio{
-    font-weight: bold;
-    padding: 10px;
+nav>a {
+    color: #fafafa;
+    padding: 1px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: small;
+}
+   body{
+    background-color: #9ea5b3;
+   }
 }
